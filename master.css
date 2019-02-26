@@ -1,0 +1,82 @@
+html{
+  font-family: sans-serif;
+}
+
+html, body, div, article, p, h3, h4{
+margin: 0px;
+padding: 0px;
+}
+
+.wrapper{
+  width: 90%;
+  margin: 0 auto;
+/* background: pink; */
+}
+
+.cover{
+  width: 300px;
+  height: 300px;
+  margin: 1em;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.cover article{
+  position: relative;
+  background-color: rgba(255,255,255,0.7);
+  height: 300px;
+  font-size: 0.8em;
+  padding: 1em;
+  margin-top: 0px;
+}
+
+.cover:hover article{
+margin-top: -315px;
+transition-duration: 0.65s;
+cursor: pointer;
+}
+
+.cover article h3, .cover article h4, .cover article p{
+  padding: 0.3em;
+
+}
+
+
+#eleveta{
+  max-width: 316px;
+  max-height: 316px;
+  min-width: 316px;
+  min-height: 316px;
+}
+
+#bmth{
+  min-width: 316px;
+  min-height: 316px;
+  max-width: 316px;
+  max-height: 316px;
+}
+#ses{
+  min-width: 316px;
+  min-height: 316px;
+  max-width: 316px;
+  max-height: 316px;
+}
+#wss{
+  min-width: 316px;
+  min-height: 316px;
+  max-width: 316px;
+  max-height: 316px;
+}
+#ffdp{
+  min-width: 316px;
+  min-height: 316px;
+  max-width: 316px;
+  max-height: 316px;
+}
+#aa{
+  min-width: 316px;
+  min-height: 316px;
+  max-width: 316px;
+  max-height: 316px;
+}
